@@ -21,9 +21,5 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: demo # The branch the action should deploy to.
-          folder: ./build # The folder the action should deploy.
-          target-folder: / # Deploy to `/` folder in `demo` branch
-          commit-message: "update: demo"
+        run: |
+          npm run deploy
