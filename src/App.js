@@ -94,7 +94,7 @@ function App() {
 			<div className="row">
 				<div className="col-12">
 					<div className="text-center mb-3">
-						<h1>Simple Todo-list Application!</h1>
+						<h1>Simple Todo-list Application</h1>
 
 						<span className="mb-3 mt-2 d-inline-block h6 font-monospace font-weight-light text-muted">
 							Made with{" "}
