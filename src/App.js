@@ -2,8 +2,8 @@
 import "./Bootstrap.css";
 
 // Components
-import Heading from "./Heading";
-import Form from "./Form";
+import Heading from "./components/Heading";
+import Form from "./components/Form";
 
 function App() {
 	return (
